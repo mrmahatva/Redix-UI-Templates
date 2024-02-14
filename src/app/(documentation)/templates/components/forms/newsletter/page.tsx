@@ -1,3 +1,4 @@
+"use client"
 import { Button, Card, Flex, Text, TextField } from "@radix-ui/themes"
 
 export default function Newsletter() {
