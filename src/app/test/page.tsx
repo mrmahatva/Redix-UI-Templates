@@ -6,7 +6,7 @@ import Image from "next/image"
 import { useEffect, useState } from "react"
 import { demologo } from "@/assets"
 
-export default function page() {
+export default function Test() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
   useEffect(() => {

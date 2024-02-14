@@ -15,7 +15,7 @@ export default function Newsletter() {
             </Button>
           </Flex>
           <Text size="3" color="gray">
-            You won't receive any spam!
+            You won&#39;t receive any spam!
           </Text>
         </Flex>
       </Card>

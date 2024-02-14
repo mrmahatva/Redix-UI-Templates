@@ -20,7 +20,7 @@ export default function Article() {
         <Flex gap="4" align="start">
           {article.tags.map((element) => {
             return (
-              <Badge color="cyan" size="2">
+              <Badge color="cyan" size="2" key={element}>
                 {element}
               </Badge>
             )

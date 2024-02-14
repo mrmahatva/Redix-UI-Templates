@@ -17,7 +17,7 @@ export default function SpleetScreen() {
           </Text>
         </Text>
         <Text color="gray" size="4" mr="9">
-          The project board is an exclusive resource for contract work. It's
+          The project board is an exclusive resource for contract work. It&#39;s
           perfect for freelancers, agencies, and moonlighters.
         </Text>
         <Flex gap="4">

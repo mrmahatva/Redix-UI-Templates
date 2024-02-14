@@ -43,7 +43,7 @@ export default function ProductDetail() {
         <Flex gap="4" align="start">
           {product.tags.map((element) => {
             return (
-              <Badge color="cyan" size="2">
+              <Badge color="cyan" size="2" key={element}>
                 {element}
               </Badge>
             )
@@ -59,7 +59,7 @@ export default function ProductDetail() {
         </Text>
         <Grid columns="2" gap="3">
           {product.features.map((feature) => {
-            return <Text>{feature}</Text>
+            return <Text key={feature}>{feature}</Text>
           })}
         </Grid>
         <Separator size="4" color="gray" />
@@ -69,7 +69,7 @@ export default function ProductDetail() {
         <Grid columns="2" gap="3">
           {product.details.map((detail) => {
             return (
-              <Text weight="medium">
+              <Text weight="medium" key={detail.detail}>
                 {detail.detail} : <Text>{detail.data}</Text>
               </Text>
             )

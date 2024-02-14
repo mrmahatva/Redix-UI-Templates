@@ -68,7 +68,7 @@ export default function Dashboard() {
               <Callout.Icon>
                 <CrossCircledIcon />
               </Callout.Icon>
-              <Callout.Text>Error Callout Red role="alert"</Callout.Text>
+              <Callout.Text>Error Callout Red role=&#34;alert&#34;</Callout.Text>
             </Callout.Root>
           </Flex>
         </Card>
